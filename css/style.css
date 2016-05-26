@@ -1,0 +1,123 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+/*.clearfix:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; 
+}*/
+
+html, body {
+	height: 100%;
+
+}
+
+h1, h2, ul, p {
+	font-family: 'Raleway', sans-serif;
+}
+
+
+nav {
+
+	/*z-index: 99;
+	position: fixed;
+	top: 0;*/
+	width: 100%;
+	background-color: #895A5F;
+	height: 75px;
+	font-size: 25px;
+	/*height: 50px;*/
+	/*opacity: 0.5;*/
+	/*margin-bottom: 2px;*/
+
+
+
+}
+
+.sect {
+	/*margin-top: 79px;*/
+	height: 100%;
+	background-color: aqua;
+	background-size:cover;
+	background-attachment: fixed;
+
+}
+
+.subSection {
+	height: 30%;
+	background-color: white;
+	padding:5%;
+}
+
+h2 {
+	text-align: center;
+	margin:10px;
+}
+
+
+
+.sectOne {
+	background-image: url("../img/veggies.jpg");
+}
+
+.sectTwo {
+	background-image: url("../img/thai.jpg");
+}
+
+.sectThree {
+	background-image: url("../img/grill.jpg");
+}
+
+.sectFour {
+	background-image: url("../img/salmon.jpg");
+}
+
+h3{
+	width: 38%;
+	margin: 15px;
+	float: left;
+	color: #E9AE22;
+	font-family: 'Raleway', sans-serif;
+}
+
+ul {
+	display: block;
+	text-align: right;
+	word-spacing: 15px;
+	padding-right: 15px;
+	margin: 15px;
+	float: right;
+	font-family: 'Raleway', sans-serif;
+}
+
+li { 
+	color: #E9AE22;
+	display: inline;
+	list-style: none;
+
+	
+ }
+/* nav li:hover {
+ 	padding-top: 10px;
+ 	padding-bottom: 10px;
+ 	background-color: green;
+
+ }*/
+
+ a{
+ 	text-decoration: none;
+ 	color: #D28708;
+	
+ }
+
+
+ footer div {
+ 	
+ 	background-color: #6B3939;
+ 	text-align: center;
+ 	font-size: 30px;
+ 	
+
+ }
+
+ footer a {
+ 	color: #895A5F;
+ }
